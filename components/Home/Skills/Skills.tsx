@@ -1,37 +1,37 @@
 'use client'
 
 import React from 'react'
-import { SiJavascript, SiNextdotjs, SiNodedotjs, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si';
+// import { SiJavascript, SiNextdotjs, SiNodedotjs, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si';
 
 const skills=[
     {
         name:'JavaScript',
-        icon:<SiJavascript/>,
+        icon:null,
         percentage:89,
     },
      {
         name:'React.js',
-        icon:<SiReact/>,
+        icon:null,
         percentage:92,
     },
      {
         name:'Next.js',
-        icon:<SiNextdotjs/>,
+        icon:null,
         percentage:90,
     },
      {
         name:'Node.js',
-        icon:<SiNodedotjs/>,
+        icon:null,
         percentage:80,
     },
      {
         name:'Tailwind CSS',
-        icon:<SiTailwindcss/>,
+        icon:null,
         percentage:90,
     },
      {
         name:'TypeScript',
-        icon:<SiTypescript/>,
+        icon:null,
         percentage:80,
     },
 
@@ -48,7 +48,7 @@ const Skills = () => {
           {skills.map((skill,i)=>{
              return (
                 <div key={skill.name} data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-delay={i*100} className="bg-[#14134145] text-center w-40 h-48 rounded-3xl flex flex-col items-center justify-center shadow-lg transition hover:scale-105">
-                    <div className="text-5xl mb-4 text-gray-300">{skill.icon}</div>
+                    {/* <div className="text-5xl mb-4 text-gray-300">{skill.icon}</div> */}
                     
                     <p className="text-purple-400 mt-1">{skill.name}</p>
                 </div>
