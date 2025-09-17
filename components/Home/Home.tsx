@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Hero from './Hero/Hero';
 
 import Resume from './Resume/Resume';
-// import Projects from './Projects/Projects';
+import Projects from './Projects/Projects';
 // import Skills from './Skills/Skills';
 // import Contact from './Contact/Contact';
 import AOS from 'aos';
@@ -28,7 +28,7 @@ const Home = () => {
         <Hero />
         
         <Resume />
-        {/* <Projects /> */}
+        <Projects />
         {/* <Skills /> */}
         {/* <Contact /> */}
         
